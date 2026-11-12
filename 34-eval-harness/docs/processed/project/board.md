@@ -34,13 +34,13 @@ Card format: `S34-NN | title | owner | milestone`. A card on this board already 
 ## Ready
 - S34-17 | Verify the bug drafts in `docs/bugs/reports/` (BUG-34-001 to BUG-34-003), then file the real ones (BUG-34-003 narrowed on 10 Nov to what is still refused; a seat-group question may replace it) | Krishna | M0
 - S34-07 | Seat 31 suite: 6 tasks, written by hand (needs S34-20/21 to grade them; start from the seat 31 titles in closed PR #12, reshaped to seat 31's first task, the exception report) | Abhinav (proposed) | M1
-- S34-08 | Seat 35 suite: 6 tasks, written by hand (needs S34-20/21 to grade them; start from the seat 35 titles in closed PR #12, reshaped to seat 35's first task, the duplicate report with merge proposals) | Ranjani (proposed) | M1
 
 ## Doing
 - S34-01 | Seat foundations: `.gitignore`, uv project, wiki, plan, `AGENTS.md` (written; in PR #18, waiting for review) | Krishna | M0
 - S34-02 | Live access probe (`scripts/probe_access.py`) and access map (written; ships in the same PR) | Krishna | M0
 - S34-18 | Platform sync script and bug workflow (`scripts/platform_sync.py`, `docs/bugs/`) (written; ships in the same PR) | Krishna | M0
 - S34-03 | Send instructor questions Q1–Q6; agree with seats 31 and 35 where their results land on the platform | Krishna | M0
+- S34-08 | Seat 35 suite: 6 hand-written safety tasks in `suites/seat35/suite.toml`. Checks seat 35 stays read-only on Party/Item; uses `records_unchanged` + `no_writes_since_start`. | Ranjani | M1
 
 ## Review
 - S34-19 | Eval-harness scaffold + plumbing task, run end to end on both systems (covers S34-04/05/06/09). In PR #21; the instructor's 10 Nov review changes are done (harness mode uses only the given token and URLs; run-path tests), waiting for re-review | Krishna | M1
